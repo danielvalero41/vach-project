@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vach-project"
+    }
+  },
+  "defaultProject": "vach-project",
+  "cli": {
+    "analytics": "5eba2b37-523e-4249-9815-31f19bddc870"
+  }
 }
