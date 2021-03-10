@@ -1,0 +1,38 @@
+@import '../../../styles.scss';
+
+footer{
+    height: 140px;
+    background-color: $rojo;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+.container-logo {
+    align-self: center;
+}
+
+.container-logo img{
+    border-radius: 5px;
+}
+.container-footer-info{
+    width: 165px;
+    height: 129px;
+    margin-top: 10px;
+}
+
+.container-footer-info-title{
+    font-family: 'Arvo-Bold';
+    font-size: 22px;
+    color: $blanco;
+}
+
+.container-footer-info-link{
+    font-family: 'OpenSans-Regular';
+    font-size: 14px;
+    text-decoration: underline;
+    color: $blanco;
+    margin: 0;
+    cursor: pointer;
+}
