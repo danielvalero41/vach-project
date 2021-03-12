@@ -14,6 +14,7 @@ import { ContactoComponent } from './vistas/maria/contacto/contacto.component';
 import { TodosPlatillosComponent } from './vistas/kleinman/todos-platillos/todos-platillos.component';
 import { PlatilloComponent } from './vistas/kleinman/platillo/platillo.component';
 import { RegistroRestaurantComponent } from './vistas/kleinman/registro-restaurant/registro-restaurant.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { RegistroRestaurantComponent } from './vistas/kleinman/registro-restaura
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,    
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
