@@ -107,3 +107,21 @@ $gris: #F0F0F0;
     src: local('OpenSans-SemiBoldItalic'), url('assets/fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
 }
 /*****************/
+
+.container-home{    
+    background-image: url('./assets/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;    
+    width: 100%;
+}
+
+.container-home::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 0.3);
+    position: absolute;
+}

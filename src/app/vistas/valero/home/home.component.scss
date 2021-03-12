@@ -1,23 +1,5 @@
 @import "../../../../styles.scss";
 
-.container-home{    
-    background-image: url('../../../../assets/img/fondo.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 100vh;    
-    width: 100%;
-}
-
-.container-home::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0 0 0 / 0.7);
-    position: absolute;
-}
-
 .container-home-title{
  font-family: "Arvo-Bold";
  font-size: 72px;
@@ -73,7 +55,7 @@
     font-family: "OpenSans-Regular";
 }
 
-.btn-primary{
+.container-home-button{
     color: $blanco;
     background-color: $rojo;
     border-color: $rojo;
@@ -82,4 +64,402 @@
 }
 .btn-primary:hover{
     text-decoration: underline;
+}
+
+/**********************************/
+
+.container-featured{
+    text-align: center;    
+    padding: 24px;
+}
+
+.container-featured-title{
+    font-family: "Arvo-Bold";
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.container-featured-dishes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.container-featured-dishe .card .card-body .card-title{
+    font-family: "Arvo-Bold";
+    font-size: 18px;
+}
+
+.container-featured-dishe .card .card-body .card-text{
+    font-family: "Arvo-Bold";
+    font-size: 14px;
+    margin: 0;
+}
+
+.container-featured-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-featured-button{
+    color: $blanco;
+    background-color: $rojo;
+    border-color: $rojo;
+    font-size: 16px;
+    font-family: "Arvo-Bold";   
+}
+
+.container-featured-restaurant{
+    display: flex;
+}
+
+.container-featured-restaurant-title{
+    font-family: "Arvo-Italic";
+    font-size: 12px;
+    margin-bottom: 0;
+    align-self: center;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.container-featured-direction{
+    display: flex;
+}
+
+.container-featured-direction-title{
+    font-family: "Arvo-Italic";
+    font-size: 12px;
+    margin-bottom: 0;
+    align-self: center;
+    margin-left: 10px;
+    text-align: left;
+}
+
+/**********************************/
+
+.container-step{
+    text-align: center;    
+    padding: 24px;
+    background-color: $negro;
+}
+
+.container-step-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-step-title{
+    font-family: "Arvo-Bold";
+    font-size: 48px;
+    text-transform: uppercase;
+    color: $blanco;
+}
+
+.container-step-image{
+    align-self: center;
+}
+
+.container-steps{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.container-steps .card{
+    background-color: $negro !important;
+}
+
+.container-steps .card .card-body .card-title{
+    font-family: "Arvo-Bold";
+    font-size: 36px;
+    color: $blanco;
+}
+
+.container-steps .card .card-body .card-text{
+    font-family: "OpenSans-SemiBold";
+    font-size: 18px;
+    margin: 0;
+    color: $blanco;
+}
+
+/**********************************/
+.container-register-here{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.container-register-here-text{
+    font-family: "Arvo-Bold";
+    font-size: 30px;    
+}
+
+.container-register-here-link{
+    font-family: "Arvo-Bold";
+    font-size: 30px;    
+    color: #2D5F9A;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/**********************************/
+
+.container-reviews{
+    text-align: center;    
+    padding: 24px;   
+    background-color: $gris; 
+}
+
+.container-reviews-title{
+    font-family: "Arvo-Bold";
+    font-size: 59px;
+}
+
+.container-reviews-info{
+    justify-content: space-around;
+    display: flex;
+}
+
+.container-reviews-info-center{
+    display: flex;
+    width: 60%;
+    background: white;
+    padding: 18px 20px;
+}
+
+.container-reviews-info-center-left{
+    width: 50%;
+}
+
+.container-reviews-info-center-left .card .card-body .card-title{
+    font-family: "Arvo-Bold";
+    font-size: 18px;
+}
+
+.container-reviews-info-center-left .card .card-body .card-text{
+    font-family: "Arvo-Bold";
+    font-size: 14px;
+    margin: 0;
+}
+
+.container-reviews-info-center-right{
+    width: 50%;
+}
+
+
+.container-reviews-info-center-right-quote-text{
+    font-family: 'OpenSans-Light';
+    font-size: 30px;
+}
+
+.container-reviews-info-center-right-stars{    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.container-reviews-info-center-right-people{
+    margin-top: 4rem;
+}
+
+.container-reviews-info-center-right-people-text{
+    font-family: "Arvo-Bold";
+    font-size: 40px;
+}
+
+.container-reviews-info-right {
+    align-self: center;
+}
+
+.container-reviews-info-left{
+    align-self: center;
+}
+
+/**********************************/
+
+.container-categorie{
+    text-align: center;    
+    padding: 24px;     
+    height: 40vh;  
+}
+
+.container-categories-title{
+    font-family: "Arvo-Bold";
+    font-size: 59px;
+}
+
+.container-categories{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-categories-center{
+    display: flex;    
+}
+
+.container-categories-center-info{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.container-categories-center-info .card .card-img{
+    width: 220px !important;
+    height: 130px !important;    
+}
+
+.container-categories-center-info .card .card-img-overlay{
+    top: 30% !important;
+    padding: 1.25rem 0 !important;
+}
+
+.container-categories-center-info .card .card-img-overlay .card-title{
+    color: $negro;
+    font-family: "Arvo-BoldItalic";
+    font-size: 32px;
+}
+.card-img-overlay-zone{
+    width: 100%;
+    background-color: $blanco;
+}
+
+
+.container-categories-right {
+    align-self: center;
+}
+
+.container-categories-left{
+    align-self: center;
+}
+
+/**********************************/
+
+.container-recommended{
+    text-align: center;
+    padding: 24px;
+    margin-top: 3rem;
+    background-color: $gris;
+}
+
+.container-recommended-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-recommended-nav-title{
+    font-family: "Arvo-Bold";
+    font-size: 48px;
+}
+
+.container-recommended-navs{
+    align-self: center;
+}
+
+.container-recommended-nav-link{
+    font-family: "OpenSans-SemiBold";
+    font-size: 24px;    
+}
+
+.br{
+    border-right: 1px solid black;
+    
+}
+
+.bx{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    
+}
+
+.bl{
+    border-left: 1px solid black;
+    
+}
+
+.container-recomended-info{
+    margin-top: 4rem;
+}
+
+.container-recomended-info-dishe{
+    flex-grow: 2;
+    justify-content: center;
+    display: flex;    
+}
+
+.container-recomended-info-dishe .card .row .col-md-4 img{
+    width: 200px;
+    height: 200px;
+}
+.container-recomended-info-dishe .card .row .col-md-8 .card-body
+.card-title{
+    font-family: "Arvo-BoldItalic";
+    font-size: 30px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.container-recomended-info-dishe .card .row .col-md-8 .card-body
+.card-text{
+    font-family: "Arvo-Bold";
+    font-size: 18px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.container-recomended-info-dishe-price{
+    display: flex;
+}
+
+.container-recomended-info-dishe-price .card-text{
+    font-family: "Arvo-Bold";
+    font-size: 18px;
+    margin-right: 3rem;
+}
+
+.container-recomended-info-stars{
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-left: 1rem;
+}
+
+/**********************************/
+
+.container-recommended-restaurant{
+    text-align: center;
+    padding: 24px;
+    margin-top: 3rem; 
+}
+
+.container-recommended-restaurant-reputation{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.container-recommended-restaurant-reputation-text{
+    font-family: "Arvo-BoldItalic";
+    font-size: 14px;
+}
+
+.container-recommended-restaurant-reputation .container-recomended-info-stars{
+    display: flex;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 2rem;
+}
+
+.tiempo{
+    font-family: "OpenSans-Regular";
+    font-size: 12px;
+}
+
+.container-recommended-restaurant .container-featured-restaurant-title{
+    font-family: "Arvo-Italic";
+    font-size: 22px;
+    margin-bottom: 0;
+    align-self: center;
+    margin-left: 10px;
+    text-align: left;
 }
