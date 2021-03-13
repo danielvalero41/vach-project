@@ -76,3 +76,146 @@
 .registro p a{
     color: #007BFF;
 }
+
+/*MEDIAQUERIES*/
+
+@media only screen and (max-width:320px){
+    .container-home-signup{
+        position: absolute;
+        top: 17%;
+        left: 14%;
+        width: 70%;
+        height: 78%;
+        padding: 26px;
+    }
+    .container-home-signup-title{
+        font-family: "Arvo-Bold";
+        font-size: 17px !important;
+    }
+    .container-home-button-facebook{
+        color: #ffffff;
+        background-color: #2D5F9A;
+        border-color: #2D5F9A;
+        font-size: 11px !important;
+        font-family: "Arvo-Bold";
+    }
+    .container-home-button{
+        margin-top: 1rem;
+        color: #ffffff;
+        background-color: #F5394B;
+        border-color: #F5394B;
+        font-size: 11px !important;
+        font-family: "Arvo-Bold";
+        padding: 5px 2rem;
+    }
+    .form-control{
+        font-size: 0.7rem;
+    }
+    .container-home-sign-zone-check{
+        margin-top: 1rem;
+    }
+    .registro{
+        margin-top: 1rem;
+        font-family: "OpenSans-Regular";
+        font-size: 12px;
+    }
+
+    .fuente{
+        font-size: 0.6rem !important;
+    }
+    
+}
+
+@media only screen and (max-width:375px){
+    .container-home-signup{
+        position: absolute;
+        top: 17%;
+        left: 14%;
+        width: 70%;
+        height: 78%;
+        padding: 26px;
+    }
+    .container-home-signup-title{
+        font-family: "Arvo-Bold";
+        font-size: 22px;
+    }
+    .container-home-button-facebook{
+        color: #ffffff;
+        background-color: #2D5F9A;
+        border-color: #2D5F9A;
+        font-size: 14px;
+        font-family: "Arvo-Bold";
+    }
+    .container-home-button{
+        margin-top: 0.5rem;
+        color: #ffffff;
+        background-color: #F5394B;
+        border-color: #F5394B;
+        font-size: 12px;
+        font-family: "Arvo-Bold";
+        padding: 5px 2rem;
+    }
+    .form-control{
+        font-size: 0.7rem;
+    }
+    .container-home-sign-zone-check{
+        margin-top: 1rem;
+    }
+    .registro{
+        margin-top: 1rem;
+        font-family: "OpenSans-Regular";
+        font-size: 12px;
+    }
+
+    .fuente{
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media only screen and (max-width:425px){
+    .container-home-signup{
+        position: absolute;
+        top: 17%;
+        left: 14%;
+        width: 70%;
+        height: 78%;
+        padding: 26px;
+    }
+    .container-home-signup-title{
+        font-family: "Arvo-Bold";
+        font-size: 22px;
+    }
+    .container-home-button-facebook{
+        color: #ffffff;
+        background-color: #2D5F9A;
+        border-color: #2D5F9A;
+        font-size: 14px;
+        font-family: "Arvo-Bold";
+    }
+    .container-home-button{
+        margin-top: 0.5rem;
+        color: #ffffff;
+        background-color: #F5394B;
+        border-color: #F5394B;
+        font-size: 12px;
+        font-family: "Arvo-Bold";
+        padding: 5px 2rem;
+    }
+    .form-control{
+        font-size: 0.7rem;
+    }
+    .container-home-sign-zone-check{
+        margin-top: 1rem;
+    }
+    .registro{
+        margin-top: 1rem;
+        font-family: "OpenSans-Regular";
+        font-size: 12px;
+    }
+
+    .fuente{
+        font-size: 0.7rem;
+    }
+    
+}
