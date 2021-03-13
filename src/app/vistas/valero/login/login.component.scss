@@ -74,3 +74,92 @@
     font-family: "OpenSans-Regular";
     font-size: 14px;
 }
+
+/*MEDIAQUERIES*/
+
+@media only screen and (max-width:320px){
+    .container-home-login-title{
+        font-size: 17px !important;
+    }
+    .container-home-login{        
+        top: 20%;
+        left: 14%;
+        width: 70%;
+        height: 70%;
+        padding: 20px;
+    }
+    .container-home-button-facebook{
+        font-size: 12px !important;
+    }
+    .container-home-login-zone-check {
+        margin-top: 1rem; 
+        display: block;       
+    }
+    .container-home-button{
+        margin-top: 1rem;
+        color: #ffffff;
+        background-color: #F5394B;
+        border-color: #F5394B;
+        font-size: 12px !important;
+        font-family: "Arvo-Bold";
+        padding: 5px 4.1rem;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .container-home-login-title{
+        font-size: 22px;
+    }
+    .container-home-login{        
+        top: 20%;
+        left: 14%;
+        width: 70%;
+        height: 70%;
+        padding: 20px;
+    }
+    .container-home-button-facebook{
+        font-size: 15px;
+    }
+    .container-home-login-zone-check {
+        margin-top: 1rem; 
+        display: block;       
+    }
+    .container-home-button{
+        margin-top: 1rem;
+        color: #ffffff;
+        background-color: #F5394B;
+        border-color: #F5394B;
+        font-size: 15px;
+        font-family: "Arvo-Bold";
+        padding: 5px 4.1rem;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .container-home-login-title{
+        font-size: 22px;
+    }
+    .container-home-login{        
+        top: 20%;
+        left: 14%;
+        width: 70%;
+        height: 70%;
+        padding: 20px;
+    }
+    .container-home-button-facebook{
+        font-size: 15px;
+    }
+    .container-home-login-zone-check {
+        margin-top: 1rem; 
+        display: block;       
+    }
+    .container-home-button{
+        margin-top: 1rem;
+        color: #ffffff;
+        background-color: #F5394B;
+        border-color: #F5394B;
+        font-size: 15px;
+        font-family: "Arvo-Bold";
+        padding: 5px 4.1rem;
+    }
+}

@@ -6,7 +6,7 @@
  text-align: center;
  color: $blanco;
  position: relative;
- top:31%;
+ top:20%;
  font-weight: 700;
 }
 
@@ -16,14 +16,14 @@
  text-align: center;
  color: $blanco;
  position: relative;
- top:31%;
+ top:20%;
  font-weight: 700;
 }
 
 .container-home-form{
     position: absolute;
     left: 16%;
-    top: 58%;
+    top: 62%;
 }
 
 .container-home-steps{
@@ -303,8 +303,8 @@
 }
 
 .container-categories-center-info .card .card-img{
-    width: 220px !important;
-    height: 130px !important;    
+    width: 220px;
+    height: 130px;    
 }
 
 .container-categories-center-info .card .card-img-overlay{
@@ -469,7 +469,76 @@
 
 /*****************MEDIAQUERIES***********************/
 @media only screen and (max-width:320px){ 
+    .container-home-title{
+        font-size: 28px !important;
+    }
+    .container-home-subtitle{
+        font-size: 12px !important;
+    }
+    .container-home-form{
+        top: 54% !important;
+    }    
+    .form-inline .form-control {
+        width: 260px !important;
+        font-size: 13px !important;
+    }
+    .container-register-here-text{
+        font-size: 8px !important;
+    }
+    .container-register-here-link{
+        font-size: 7px !important;
+    }
+    .container-reviews-title{
+        font-size: 25px !important;
+    }
+    .container-reviews-info-center-right-stars img{
+        width: 13px !important;
+    }
+    .container-categories-title{
+        font-size: 19px !important;
+    }
+    .container-categories-center-info .card 
+    .card-img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .container-categories-center-info .card 
+    .card-img-overlay .card-title {
+        font-size: 15px;
+    }
+    .container-categories-center-info .card .card-img-overlay .card-title {
+        font-size: 15px !important;
+    }
+    .container-recomended-info-stars {        
+        width: 15px;
+        height: 15px;        
+        margin-top: 5px;
+    }
+
+    .container-categories-right img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ancho{
+        width: 18rem !important;
+    }
+}
+
+@media only screen and (max-width:375px){ 
+    .container-home-form{
+        left: 11%;
+    }
+    .container-reviews-title{
+        font-size: 30px;
+    }
     
+    .container-reviews-info-center-right-stars img{
+        width: 20px;
+    }
+    .container-categories-title{
+        font-size: 19px !important;
+    }
 }
 
 @media only screen and (max-width:425px){
@@ -598,17 +667,17 @@
         font-size: 26px;
     }
     .container-categories-left img{
-        width: 35px;
-        height: 35px;
+        width: 24px;
+        height: 24px;
     }
     .container-categories-right img{
-        width: 35px;
-        height: 35px;
+        width: 24px;
+        height: 24px;
     }
     .container-categories-center-info
      .card .card-img{
-        width: 100px !important;
-        height: 130px !important;
+        width: 100px ;
+        height: 130px ;
     }
     .v{
         display: none;
