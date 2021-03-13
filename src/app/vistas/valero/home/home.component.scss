@@ -463,3 +463,167 @@
     margin-left: 10px;
     text-align: left;
 }
+.ancho{
+    width: 30rem;
+}
+
+/*****************MEDIAQUERIES***********************/
+@media only screen and (max-width:320px){ 
+    
+}
+
+@media only screen and (max-width:425px){
+    .container-home-title{
+        font-size: 34px;
+        top: 14%;
+    }
+    .container-home-subtitle{
+        font-size: 14px;
+        top: 16%;    
+    }
+    .form-inline{
+        flex-flow: column;
+    }
+    .form-inline .form-control{
+        width: 300px;
+        font-size: 15px;
+    }
+    .container-home-button{
+        font-size: 18px;
+    }
+    .container-home-steps{
+        padding: 0 1rem;
+    }
+    .container-home-steps-text{
+        font-size: 10px;
+    }
+    .container-home-steps-info img{
+        width: 40px;
+        height: 40px;
+    }
+    /*********************/
+    .container-featured-title{
+        font-size: 26px;
+    }
+    .container-featured-dishes{
+        display: flex;
+        flex-flow: column;    
+        margin-top: 20px;
+        text-align: -webkit-center;
+    }
+    .container-featured-dishe{
+        margin-bottom: 2rem;
+    }
+
+    /************************/
+    .container-step-title{
+        font-size: 38px;
+    }
+    .container-step-flex{
+        display: inline-block;
+    }
+    .container-step-image{
+        display: none;
+    }
+    /**************************/
+    .container-register-here-text{
+        font-size: 10px;
+    }
+    .container-register-here-link{
+        font-size: 10px;
+    }
+    /**************************/
+    .container-reviews-title{
+        font-size: 32px;
+    }
+    .container-reviews-info-right img{
+        width: 35px;
+        height: 35px;
+    }
+    .container-reviews-info-left img{
+        width: 35px;
+        height: 35px;
+    }
+    .container-reviews-info-center{        
+        width: 90%;        
+    }
+    .container-reviews-info-center-right-quote-text{
+        font-size: 16px;
+    }
+    .container-reviews-info-center-right-stars{
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+    .container-reviews-info-center-right-stars img{
+        width: 25px;
+        height: 25px;
+    }
+    .container-reviews-info-center-right-people-text{
+        font-size: 16px;
+    }
+    .container-reviews-info-center-left .card 
+    .card-body .card-title{        
+        font-size: 10px;
+    }
+    .container-reviews-info-center-left .card 
+    .card-body .card-text {        
+        font-size: 10px;
+        margin: 0;
+    }
+    .container-reviews-info-center-left .card 
+    .card-body .container-featured-price{
+        font-size: 10px;
+    }
+    .container-reviews-info-center-left .card 
+    .card-body .container-featured-price .btn{
+        padding: 0.075rem 0.35rem;    
+    }    
+    .container-featured-button{
+        font-size: 10px;
+    }
+    .container-featured-restaurant-title{
+        font-size: 8px;
+    }
+    .container-featured-direction-title{
+        font-size: 8px;
+    }
+    .container-reviews-info-center-right{
+        width: 40%;
+    }
+    .container-reviews-info-center-left{
+        width: 80%;
+    }
+    /*****************************/
+    .container-categories-title{
+        font-size: 26px;
+    }
+    .container-categories-left img{
+        width: 35px;
+        height: 35px;
+    }
+    .container-categories-right img{
+        width: 35px;
+        height: 35px;
+    }
+    .container-categories-center-info
+     .card .card-img{
+        width: 100px !important;
+        height: 130px !important;
+    }
+    .v{
+        display: none;
+    }
+    .container-categories-center-info .card .card-img-overlay 
+    .card-title {        
+        font-size: 20px;
+    }
+
+    /*****************************/
+    .container-recommended-nav-title{
+        font-size: 28px;
+    }
+    /*****************************/
+    .ancho{
+        width: 23rem;
+    }
+}

@@ -9,16 +9,20 @@ header nav .navbar-nav .nav-link{
     padding-right: 1rem;    
 }
 
-nav{
-    position: absolute !important;
-    z-index: 1;
+.navbar-toggler{
+  background-color: $blanco;
 }
 
-.navbar-expand-lg .navbar-nav {
-    flex-direction: row;
-    position: relative !important;
-    left: 130% !important;
-}
+// nav{
+//     position: absolute !important;
+//     z-index: 1;
+// }
+
+// // .navbar-expand-lg .navbar-nav {
+// //     flex-direction: row;
+// //     position: relative !important;
+// //     left: 130% !important;
+// // }
 
 .navbar-light .navbar-nav .nav-link {
   color: $blanco;
