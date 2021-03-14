@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ContrasenaComponent } from './vistas/jesus/contrasena/contrasena.component';
+import { TuCuentaRestaurantComponent } from './vistas/jesus/tu-cuenta-restaurant/tu-cuenta-restaurant.component';
+import { TuCuentaComponent } from './vistas/jesus/tu-cuenta/tu-cuenta.component';
 import { PlatilloComponent } from './vistas/kleinman/platillo/platillo.component';
 import { RegistroRestaurantComponent } from './vistas/kleinman/registro-restaurant/registro-restaurant.component';
 import { TodosPlatillosComponent } from './vistas/kleinman/todos-platillos/todos-platillos.component';
@@ -40,6 +43,15 @@ const routes: Routes = [
   },
   {
     path:'todos-platillos', component:TodosPlatillosComponent
+  },
+  {
+    path:'tu-cuenta', component:TuCuentaComponent
+  },
+  {
+    path:'tu-cuenta-restaurant', component:TuCuentaRestaurantComponent
+  },
+  {
+    path:'password', component:ContrasenaComponent
   }
 ];
 

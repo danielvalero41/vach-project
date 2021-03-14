@@ -15,6 +15,9 @@ import { TodosPlatillosComponent } from './vistas/kleinman/todos-platillos/todos
 import { PlatilloComponent } from './vistas/kleinman/platillo/platillo.component';
 import { RegistroRestaurantComponent } from './vistas/kleinman/registro-restaurant/registro-restaurant.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TuCuentaComponent } from './vistas/jesus/tu-cuenta/tu-cuenta.component';
+import { TuCuentaRestaurantComponent } from './vistas/jesus/tu-cuenta-restaurant/tu-cuenta-restaurant.component';
+import { ContrasenaComponent } from './vistas/jesus/contrasena/contrasena.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactoComponent,
     TodosPlatillosComponent,
     PlatilloComponent,
-    RegistroRestaurantComponent
+    RegistroRestaurantComponent,
+    TuCuentaComponent,
+    TuCuentaRestaurantComponent,
+    ContrasenaComponent
   ],
   imports: [
     BrowserModule,
