@@ -1,0 +1,347 @@
+@import "../../../../styles.scss";
+.Restaurant-profile{
+    background-image: url('../../../../assets/img/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment:fixed ;
+    height: 2110px;
+    width:100%;
+   
+    }
+.container-title-restaurant{
+    position: absolute;
+    width: 1440px;
+    height:295.11;
+    left: 0px;
+    top:50px;
+
+}
+.zona-restaurant{
+    position: absolute;
+    width: 1440px;
+    height:240px;
+    left: 0px;
+    top:50px;
+}
+.container-name{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 21px;
+    top: 20px;
+}
+.rectangle-name{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 510px;
+    height: 220px;
+    background: rgba(196, 196, 196, 0.1);
+
+}
+.name-restaurant{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    width: 510px;
+    height:220px;
+    bottom: 0%;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+}
+.restaurant-dates{
+    position: absolute;
+    width: 461px;
+    height: 234.11px;
+    left: 703px;
+    top: 50px;
+
+
+}
+.rectangle-dates{
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    width: 420px;
+    height: 234.11;
+    top: 0%;
+    bottom: 0%;
+    background: rgba(196, 196, 196, 0.1);
+    
+}
+.dates-img1-ubicación{
+position: absolute;
+left: 20px;
+top: 2%;
+width: 45px;
+height: 47.24px;
+bottom: 74.29%;
+}
+.direction{
+
+position: absolute;
+left: 104%;
+right: 12%;
+top: 8.13%;
+width:384px;
+height:31.36px;
+bottom: 5.30%;
+
+font-family: Arvo;
+font-style: italic;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.dates-img2-calender{
+
+    position: absolute;
+    left: 4.34%;
+    top: 22.24%;
+    right:75.20%;
+    bottom:40.20%;
+}
+.Calender{
+    position: absolute;
+    left:60%;
+    right:30%;
+    width: 331px;
+    height: 21px;
+    top: 20.21%;
+    bottom: 10.30%;
+    font-family: Arvo;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+
+
+}
+.dates-img3-clock{
+    position: absolute;
+    height: 47.24px;
+    width: 45px;
+    left: 20px;
+    top: 102px;
+    border-radius: 0px;
+
+
+}
+.Clock{
+    position: absolute;
+    left: 120%;
+    right: 11.5%;
+    top: 34.41%;
+    width: 331px;
+    height: 21px;
+    bottom: 60.40%;
+
+    
+    font-family: Arvo;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+
+}
+
+.dates-img4-car{
+    position: absolute;
+    left: 4.34%;
+    right: 85.9%;
+    top: 63.20%;
+    bottom: 5.38%;
+
+}
+.car{
+position:absolute;
+width: 298px;
+height: 16.8px;
+left:52px;
+right: 10.20%;
+top: 30%;
+bottom: 11.48%;
+font-family: Arvo;
+font-style: italic;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+/**********************************/
+.container-menú{
+    position: absolute;
+    width: 100%;
+    height: 1240px;
+    left: 0px;
+    top: 520px;
+    text-align: center;
+    padding: 24px;
+
+
+}
+.rectangle-info-menú{
+
+    position: absolute;
+    width:100%;
+    height: 1240px;
+    left: 0px;
+    top:350px;
+    background: #FFFFFF;
+
+
+}
+.menú-restaurant-title{
+
+    position: absolute;
+    width:412px;
+    height:105px;
+    left: 514px;
+    top: 10px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 59px;
+    line-height: 73px;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+.container-restaurant-dishes{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    }
+    .container-restaurant-dishe{
+        position: absolute;
+        left: 12.20%;
+        right: 8.01%;
+        top: 15%;
+        width: 400.85px;
+        height: 617.62px;
+        bottom: 57.67%;
+        border-radius: 5px;
+    
+    
+    }
+    .container-restaurant-dishe .card  .card-body .card-title{
+        font-family: "Arvo-Bold";
+        font-size: 18px;
+    
+    }
+    
+    .container-description-dishes .card-text-description .card-text{
+    font-family: "Arvo-Bold";
+    font-size: 14px;
+    margin:0;
+    
+    }
+    .container-dishes-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    }
+    .container-dishes-button{
+    color: $blanco;
+    background-color: $rojo;
+    font-size: 16px;
+    font-family: "Arvo-Bold";
+    }
+
+   /************Plato 2***************/ 
+   .container-restaurant-dishe2{
+    position: absolute;
+    left: 40.20%;
+    right: 20.4%;
+    top: 15%;
+    width: 400.85px;
+    height: 617.62px;
+    bottom: 57.67%;
+    border-radius: 5px;
+
+
+}
+.container-restaurant-dishe3{
+    position: absolute;
+    left: 68.20%;
+    right: 20.4%;
+    top: 15%;
+    width: 400.85px;
+    height: 617.62px;
+    bottom: 57.67%;
+    border-radius: 5px;
+
+
+}
+.container-restaurant-dishe4{
+    position: absolute;
+    left: 12.20%;
+    right: 20.4%;
+    top:56%;
+    width: 400.85px;
+    height: 617.62px;
+    bottom: 57.67%;
+    border-radius: 5px;
+
+
+}
+.container-restaurant-dishe5{
+    position: absolute;
+    left: 40.30%;
+    right: 20.4%;
+    top:56%;
+    width: 400.85px;
+    height: 617.62px;
+    bottom: 57.67%;
+    border-radius: 5px;
+
+
+}
+.container-restaurant-dishe6{
+    position: absolute;
+    left: 68.20%;
+    right: 20.4%;
+    top:56%;
+    width: 400.85px;
+    height: 617.62px;
+    bottom: 57.67%;
+    border-radius: 5px;
+
+
+}

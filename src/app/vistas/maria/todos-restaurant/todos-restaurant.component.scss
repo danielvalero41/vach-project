@@ -1,0 +1,978 @@
+@import "../../../../styles.scss";
+.frame-restaurant{
+
+    position: relative;
+    width: 1440px;
+    height: 2628px;
+    
+    background: #FFFFFF;
+
+
+
+}
+
+
+
+
+.Search-Restaurant{
+    background-image: url('../../../../assets/img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment:fixed ;
+    height:802px;
+    width:1495px;
+   
+    }
+    .container-header-upper{
+        position: absolute;
+        width: 1254px;
+        height: 148px;
+        left: 93px;
+        top: 5px;
+
+    }
+   .Titulo-de-busqueda{
+    position: absolute;
+    width: 1254px;
+    height: 79px;
+    left: 93px;
+    top: 183px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 59px;
+    line-height: 73px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+   } 
+   .Subtitulo-de-busqueda{
+    position: absolute;
+    width: 1124px;
+    height: 58px;
+    left: 141px;
+    top: 273px;
+    
+    /* h2-subtitle-bold */
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+
+
+   }
+   .container-header-lower{
+    position: absolute;
+    width: 1151px;
+    height: 70px;
+    left: 144px;
+    top: 180px;
+        
+   }
+   .zona-de-busqueda{
+    position: absolute;
+    width: 694px;
+    height: 70px;
+    left: 144px;
+    top:182px;
+    background: #FFFFFF;
+    border-radius: 4.5px;
+ }
+ .palceholder-busqueda{
+    position: absolute;
+    width: 554px;
+    height: 41px;
+    left:60px; 
+    top: 16px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #000000;
+ }
+ .seleccion-comida-restaurant{
+    position: absolute;
+    width: 196px;
+    height: 70px;
+    left: 850px;
+    top: 182px;
+    
+    background: #FFFFFF;
+    border-radius: 2.5px
+
+ }
+ .text-seleccion-comida-restaurant{
+    position: absolute;
+    width: 104px;
+    height: 41px;
+    left: 50px;
+    top: 12px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+
+ }
+ .rectangle-seleccion{
+
+
+    position: absolute;
+    width: 82px;
+    height: 70px;
+    left: 1050px;
+    top: 182px;
+    background: #E5E5E5;
+    border-radius: 2.5px;
+ }
+ .seleccion-comida-img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 24px;
+    top: 20px;
+
+
+ }
+ .boton-zona-de-busqueda.button{
+
+    position: absolute;
+    width: 260px;
+    height: 120px;
+    left: 1166px;
+    top:30px;
+    
+    background-color:$rojo;
+    border-radius: 2.5px;
+    
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: 1140px;
+    top: 181px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+   
+    color:$blanco;
+
+ }
+ 
+
+.container-filtres-dishes{
+
+    position: absolute;
+    width: 553px;
+    height: 1825px;
+    left: 1px;
+    top: 802px;
+}
+
+ .zona-de-filtro{
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top:0%;
+    bottom: 0%;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+ }
+ .container-search-category{
+    position: absolute;
+    width: 479px;
+    height: 65.25px;
+    left: 15px;
+    top: 30.59px;
+   
+
+ }
+
+ .zona-de-categoria{
+    position: absolute;
+    left: 6.69%;
+    right: 6.69%;
+    top: 1.68%;
+    bottom: 94.75%;
+    width: 479px;
+    height:60.25px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+
+ }
+ .categoria{
+    
+position: absolute;
+left: 22.41%;
+right: 22.41%;
+top: 20.78%;
+width: 283px;
+height: 35.68px;
+bottom: 95.81%;
+
+/* p-text-light */
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 35px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+  
+}
+.container-food-types{
+
+position: absolute;
+left: 8%;
+right: 79.57%;
+top: 5.43%;
+width: 25px;
+height:337.47px;
+bottom: 73.07%;
+
+}
+.rectangle-types{
+    position: absolute;
+    left:1.20%;
+    right: 1.20%;
+    top: 6.93%;
+    width: 480px;
+    height: 388.45px;
+    bottom: 71.79%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+}
+.checkbox-1{
+
+    position: absolute;
+    left: 15.91%;
+    right: 79.57%;
+    top: 30px;
+    width: 25px;
+    height: 25.49px;
+    bottom: 90.17%;
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px; 
+
+
+}
+.checkbox-2{
+    position: absolute;
+    left: 15.91%;
+    right: 79.57%;
+    top: 70px;
+    width: 25px;
+    height: 25.49px;
+    bottom: 87.77%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+.checkbox-3{
+    position: absolute;
+    left: 15.91%;
+    right: 79.57%;
+    top: 110px;
+    width: 25px;
+    height: 25.49px;
+    bottom: 87.77%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    
+}
+.checkbox-4{
+
+    position: absolute;
+    left: 15.91%;
+    right: 79.57%;
+    top: 150px;
+    width: 25px;
+    height: 25.49px;
+    bottom: 87.77%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+
+}
+.checkbox-5{
+    position: absolute;
+    left: 15.91%;
+    right: 79.57%;
+    top: 190px;
+    width: 25px;
+    height: 25.49px;
+    bottom: 87.77%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+}
+.checkbox-6{
+    position: absolute;
+    left: 15.91%;
+    right: 79.57%;
+    top: 230px;
+    width: 25px;
+    height: 25.49px;
+    bottom: 87.77%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+}
+.checkbox-7{
+    position: absolute;
+    left: 15.91%;
+    right: 79.57%;
+    top: 270px;
+    width: 25px;
+    height: 25.49px;
+    bottom: 87.77%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+}
+
+.checkbox-8{
+    position: absolute;
+    left: 15.91%;
+    right: 79.57%;
+    top:310px;
+    width: 25px;
+    height: 25.49px;
+    bottom: 87.77%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+}
+.container-names-category{
+    position: absolute;
+    width: 249.11px;
+    height: 350.73px;
+    left: 123px;
+    top: 148.85px;
+
+
+
+}
+.name-1{
+    position: absolute;
+    left: 18.24%;
+    right: 59.35%;
+    top: 0%;
+    bottom: 89.55%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+
+}
+.name-2{
+    position: absolute;
+    left: 18.24%;
+    right: 59.35%;
+    top: 11.45%;
+    bottom: 87.26%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+
+
+}
+.name-3{
+
+    position: absolute;
+    left: 18.24%;
+    right: 59.35%;
+    top: 23.10%;
+    bottom: 84.97%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+
+
+}
+.name-4{
+  
+position: absolute;
+left: 18.24%;
+right: 51.48%;
+top: 34.2%;
+bottom: 82.51%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 35px;
+
+color: #000000;
+
+}
+.name-5{
+    position: absolute;
+    left: 18.24%;
+    right: 45.76%;
+    top: 46.20%;
+    bottom: 79.83%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;  
+
+    
+}
+.name-6{
+    position: absolute;
+    left: 18.24%;
+    right: 32.71%;
+    top: 57.21%;
+    bottom: 77.37%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+
+}
+.name-7{
+    position: absolute;
+    left: 18.24%;
+    right: 32.71%;
+    top: 69.21%;
+    bottom: 77.37%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+
+}
+.name-8{
+    position: absolute;
+    left: 18.24%;
+    right: 32.71%;
+    top: 80.21%;
+    bottom: 77.37%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+
+}
+.container-delivery{
+    position: absolute;
+    left: 6.51%;
+    right: 6.69%;
+    top: 27.5%;
+    width: 480px;
+    height: 132.54px;
+    bottom: 62.23%;
+
+
+}
+.types-delivery{
+
+    position: absolute;
+    left: 2.1%;
+    right: 6.69%;
+    top: 27.5%;
+    width: 480px;
+    height: 132.54px;
+    bottom: 62.23%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+.text-types-delivery{
+    
+position: absolute;
+left: 31.1%;
+right: 31.14%;
+top: 8.1%;
+bottom: 67.15%;
+
+/* p-text-light */
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 35px;
+
+color: #000000;
+     
+
+}
+.delivery{
+    position: absolute;
+    left: 16.01%;
+    right: 80.47%;
+    width: 25px;
+    height: 25.49px;
+    top: 70.41%;
+    bottom: 64.19%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+
+}
+.delivery-text{
+    position: absolute;
+    left: 128.56%;
+    right: 65.88%;
+    top: 2.41%;
+    bottom: 64.19%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    
+    color: #000000;
+
+
+}
+.to-carry-out{
+    position: absolute;
+    left: 42.01%;
+    right: 56.63%;
+    top: 70.41%;
+    width: 25px;
+    height: 25.49px;
+
+    bottom: 64.19%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+
+}
+.to-carry-out-text{
+
+position: absolute;
+left: 128.56%;
+right: 60.14%;
+top: 2.41%;
+bottom: 64.19%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+
+color: #000000;
+}
+.Reserve{
+
+
+    position: absolute;
+    left: 65.04%;
+    right: 30.3%;
+    top: 70.41%;
+    width: 25px;
+    height: 25.49px;
+    bottom: 64.19%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+}
+.Reserve-text{
+
+    position: absolute;
+    left: 140.04%;
+    right: 15.19%;
+    top: 58.41%;
+    bottom: 64.19%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+}
+.container-tags{
+
+    position: absolute;
+    left: 6.51%;
+    right: 6.69%;
+    top: 37.86%;
+    bottom: 45.75%;
+
+}
+.tags-title{
+    position: absolute;
+    width: 136px;
+    height: 30px;
+    left: 208px;
+    top: 10px;
+    
+    /* p-text-light */
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+.container-tags-components{
+    position: absolute;
+    left: 0%;
+    right: 6.69%;
+    top: 20.06%;
+    width: 480px;
+    height: 240.61px;
+    bottom: 45.75%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+}
+.Top-Asiatica{
+position: absolute;
+left: 2.54%;
+right: 11.21%;
+top: 15.69%;
+width: 220px;
+height: 30.59px;
+bottom: 53.8%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+
+}
+.text-asiatica{
+    position: absolute;
+    left: 10.13%;
+    right: 11.21%;
+    top: 44.69%;
+    bottom: 53.69%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+
+}
+.Top-Italiana{
+  
+position: absolute;
+left: 51.54%;
+right: 11.21%;
+top: 15.69%;
+width: 220px;
+height: 30.59px;
+bottom: 53.8%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+
+
+}
+.text-italiana{
+position: absolute;
+left: 10.13%;
+right: 11.21%;
+top: 44.69%;
+bottom: 53.69%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 300px;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000
+
+
+
+}
+.Mejores-Postres{
+  
+position: absolute;
+left: 2.13%;
+right: 52.62%;
+top: 35.54%;
+width: 220px;
+height: 30.59px;
+bottom: 50.78%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px
+
+}
+.text-mejores-postres{
+    position: absolute;
+    left: 10.13%;
+    right: 11.21%;
+    top: 47.54%;
+    bottom: 50.78%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 310px;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+
+}
+.Mejores-Helados{
+    position: absolute;
+    left: 51.54%;
+    right: 11.21%;
+    top: 35.54%;
+    width: 220px;
+    height: 30.59px;
+    bottom: 50.84%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+
+}
+.text-mejores-helados{
+
+    position: absolute;
+    left: 10.13%;
+    right: 11.21%;
+    top: 47.65%;
+    bottom: 50.78%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+}
+.Vegetariana{
+position: absolute;
+left: 2.13%;
+right: 52.62%;
+top: 55.45%;
+width: 220px;
+height: 30.59px;
+bottom: 47.88%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+
+
+
+}
+
+
+.text-vegetariana{
+    position: absolute;
+    left: 10.13%;
+    right: 11.21%;
+    top: 50.45%;
+    bottom: 47.88%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+.Internacional{
+    position: absolute;
+    left: 51.54%;
+    right: 11.21%;
+    top: 55.61%;
+    width: 220px;
+    height: 30.59px;
+    bottom: 47.88%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+
+}
+.text-internacional{
+    position: absolute;
+    left: 10.13%;
+    right: 11.21%;
+    top: 50.61%;
+    bottom: 47.88%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+
+}
