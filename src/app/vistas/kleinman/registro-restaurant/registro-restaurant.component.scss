@@ -1,0 +1,163 @@
+@import "../../../../styles.scss";
+
+.container-home-signup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 600px;
+    height: 450px;    
+    padding: 26px;  
+}
+
+.container-home-signup::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $gris;
+    opacity: 0.95;
+    border-radius: 10px;
+}
+
+.container-home-signup-zone{
+    position: relative;
+    text-align: center;    
+}
+.container-home-signup-title{
+    font-family: "Arvo-Bold";
+    font-size: 28px;    
+}
+
+.container-home-signup-text{
+    font-family: "Arvo-Italic";
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.form-control{
+    font-family: 'OpenSans-Regular';
+}
+
+.container-home-signup-zone-check{
+    margin-top: 2rem;    
+}
+
+.container-home-signup-zone-check label a{
+    font-family: 'OpenSans-Regular';
+    font-size: 12px;
+}
+
+.container-home-button{
+    margin-top: 2rem;
+    color: $blanco;
+    background-color: $rojo;
+    border-color: $rojo;
+    font-size: 20px;
+    font-family: "Arvo-Bold";
+    padding: 5px 4.8rem;
+}
+
+.registro{
+    margin-top: 1rem;
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+}
+
+.registro p a{
+    color: #007BFF;
+}
+
+/*MEDIAQUERIES*/
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .container-home-signup{
+        width: 260px;
+        height: 380px;
+        top: 55%;
+    }
+    .container-home-signup-title{
+        font-size: 17px;
+    }
+    .container-home-button{
+        margin-top: 1rem;
+        font-size: 11px;
+        padding: 5px 2rem;
+    }
+    .form-control{
+        font-size: 0.7rem;
+    }
+    .container-home-sign-zone-check{
+        margin-top: 1rem;
+    }
+    .registro{
+        margin-top: 1rem;
+        font-family: "OpenSans-Regular";
+        font-size: 12px;
+    }
+
+    .fuente{
+        font-size: 0.6rem;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px){
+    .container-home-signup{
+        width: 300px;
+    }
+    .container-home-signup-title{
+        font-family: "Arvo-Bold";
+        font-size: 19px;
+    }
+    .container-home-button{
+        margin-top: 0.5rem;
+        font-size: 12px;
+    }
+    .form-control{
+
+    }
+    .container-home-sign-zone-check{
+
+    }
+    .registro{
+
+    }
+
+    .fuente{
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px){
+    .container-home-signup{
+        width: 400px;
+        height: 400px;
+        top: 55%;
+    }
+    .container-home-signup-title{
+        font-family: "Arvo-Bold";
+        font-size: 22px;
+    }
+    .container-home-button{
+        margin-top: 0.5rem;
+        font-size: 12px;
+    }
+    .form-control{
+        font-size: 0.9rem;
+    }
+    .container-home-sign-zone-check{
+
+    }
+    .registro{
+        font-size: 13px;
+    }
+
+    .fuente{
+
+    }
+    
+}
