@@ -1,0 +1,73 @@
+@import "../../../../styles.scss";
+
+.h3-title-arvo-bold-26{
+    font-family: "Arvo-Bold";
+    font-weight: 900; 
+    font-size: 26px;    
+}
+.p-subtitle-arvo-italic-12{
+    font-family: "Arvo-BoldItalic";
+    font-size: 12px;    
+}
+
+.container-home-button{
+    margin-top: 2rem;
+    color: $blanco;
+    background-color: $rojo;
+    border-color: $rojo;
+    font-size: 15px;
+    font-family: "Arvo-Bold";
+    padding: 3px 30px;
+}
+
+.container-featured-dishes{
+    width: 1000px;
+    background-color: $gris;
+}
+
+.container-featured-dishe{
+    margin: 10px 10px;
+}
+
+.container-all-header{
+    margin-bottom: 300px;
+}
+
+.frame-main{
+    height: 1595px;
+}
+
+.card{
+    width: 400px;
+}
+
+/*MEDIAQUERIES*/
+
+@media only screen and (min-width: 320px) and (max-width: 785px){
+
+    .card{
+        width: 200px;
+    }
+
+    .container-featured-dishes{
+        margin-top: 0px;
+        width: 260px;
+    }
+
+    .frame-main{
+        height: 3205px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 785px){
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 785px){
+
+}
+
+@media only screen and (min-width: 786px){
+
+} 
