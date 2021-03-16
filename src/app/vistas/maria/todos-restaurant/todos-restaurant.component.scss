@@ -2,8 +2,8 @@
 .frame-restaurant{
 
     position: relative;
-    width: 1440px;
-    height: 2628px;
+    width: 1280px;
+    height: 1090px;
     
     background: #FFFFFF;
 
@@ -974,5 +974,628 @@ border-radius: 6px;
     
     color: #000000;
 
+
+}
+.container-price{
+   
+position: absolute;
+left: 4.21%;
+right: 6.69%;
+top: 70.21%;
+width: 480px;
+height: 300px;
+bottom: 8.66%;
+
+}
+.price{
+
+    position: absolute;
+    left: 4.21%;
+    right: 6.69%;
+    top: 50.21%;
+    width: 480px;
+    height: 300px;
+
+    bottom: 8.66%;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+
+}
+.text-price{
+    position: absolute;
+    left: 18.72%;
+    right: 59.81%;
+    top: 10.15%;
+    bottom: 21.4%;
+    
+    /* p-text-light */
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+
+
+}
+.price-ranges{
+    position: absolute;
+    left: 20.61%;
+    right: 66.91%;
+    top: 25.89%;
+    bottom: 18.16%;
+    
+    /* p-text-light */
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+
+
+}
+.price-min-max{
+    position: absolute;
+    left: 14.65%;
+    right: 16.86%;
+    top: 100.63%;
+    width: 378.75px;
+    height: 72.39px;
+    bottom: 13.41%;
+    
+    background: #FFFFFF;
+    border-radius: 7px;
+
+}
+.text-min{
+    position: absolute;
+    left: 20.98%;
+    right: 60.04%;
+    top: 14.63%;
+    bottom: 16.37%;
+    
+    /* p-text-light */
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+}
+.text-max{
+
+    position: absolute;
+    left: 55.79%;
+    right: 22.74%;
+    top: 14.63%;
+    bottom: 15.25%;
+    
+    /* p-text-light */
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    
+    color: #000000;
+
+}
+.line1{
+    position: absolute;
+    left: 20.53%;
+    right: 56.35%;
+    top: 85.56%;
+    bottom: 14.39%;
+    
+    border: 1px solid #000000;
+    border-radius: 7px;
+    transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+
+}
+.line2{
+position: absolute;
+left: 55.34%;
+right: 21.54%;
+top: 85.59%;
+bottom: 14.36%;
+
+border: 1px solid #000000;
+border-radius: 7px;
+transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+}
+.zona-boton-price button{
+    position: absolute;
+    left: 80%;
+    right: 25.13%;
+    top: 100%;
+    width: 277.74px;
+    height: 38.74px;
+    bottom: 10.17%;
+ 
+    
+    background-color: $rojo;
+    border-radius: 2.5px;
+    position: absolute;
+    left: 30.12%;
+    right: 25.14%;
+    top: 128%;
+    bottom: 10.17%;
+/* h3-title-white-bold-26 */
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+display: flex;
+align-items: center;
+text-align: center;
+display: block;
+color:$blanco;
+
+
+
+}
+
+
+.container-recommended{
+    text-align: center;
+    padding: 24px;
+    margin-top: 3rem;
+    background-color: $gris;
+}
+
+.container-recommended-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-recommended-nav-title{
+    font-family: "Arvo-Bold";
+    font-size: 48px;
+}
+
+.container-recommended-navs{
+    align-self: center;
+}
+
+.container-recommended-nav-link{
+    font-family: "OpenSans-SemiBold";
+    font-size: 24px;    
+}
+
+.br{
+    border-right: 1px solid black;
+    
+}
+
+.bx{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    
+}
+
+.bl{
+    border-left: 1px solid black;
+    
+}
+
+.container-recomended-info{
+    margin-top: 4rem;
+}
+
+.container-recomended-info-dishe{
+    flex-grow: 2;
+    justify-content: center;
+    display: flex;    
+}
+
+.container-recomended-info-dishe .card .row .col-md-4 img{
+    width: 200px;
+    height: 200px;
+}
+.container-recomended-info-dishe .card .row .col-md-8 .card-body
+.card-title{
+    font-family: "Arvo-BoldItalic";
+    font-size: 30px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.container-recomended-info-dishe .card .row .col-md-8 .card-body
+.card-text{
+    font-family: "Arvo-Bold";
+    font-size: 18px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.container-recomended-info-dishe-price{
+    display: flex;
+}
+
+.container-recomended-info-dishe-price .card-text{
+    font-family: "Arvo-Bold";
+    font-size: 18px;
+    margin-right: 3rem;
+}
+
+.container-recomended-info-stars{
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-left: 1rem;
+}
+
+/**********************************/
+
+.container-recommended-restaurant{
+    text-align: center;
+    padding: 24px;
+    margin-top: 3rem; 
+}
+
+.container-recommended-restaurant-reputation{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.container-recommended-restaurant-reputation-text{
+    font-family: "Arvo-BoldItalic";
+    font-size: 14px;
+}
+
+.container-recommended-restaurant-reputation .container-recomended-info-stars{
+    display: flex;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 2rem;
+}
+
+.tiempo{
+    font-family: "OpenSans-Regular";
+    font-size: 12px;
+}
+
+.container-recommended-restaurant .container-featured-restaurant-title{
+    font-family: "Arvo-Italic";
+    font-size: 22px;
+    margin-bottom: 0;
+    align-self: center;
+    margin-left: 10px;
+    text-align: left;
+}
+.ancho{
+    width: 30rem;
+}
+
+/*****************MEDIAQUERIES***********************/
+@media only screen and (max-width:320px){ 
+    .container-home-title{
+        font-size: 28px !important;
+    }
+    .container-home-subtitle{
+        font-size: 12px !important;
+    }
+    .container-home-form{
+        top: 54% !important;
+    }    
+    .form-inline .form-control {
+        width: 260px !important;
+        font-size: 13px !important;
+    }
+    .container-register-here-text{
+        font-size: 8px !important;
+    }
+    .container-register-here-link{
+        font-size: 7px !important;
+    }
+    .container-reviews-title{
+        font-size: 25px !important;
+    }
+    .container-reviews-info-center-right-stars img{
+        width: 13px !important;
+    }
+    .container-categories-title{
+        font-size: 19px !important;
+    }
+    .container-categories-center-info .card 
+    .card-img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .container-categories-center-info .card 
+    .card-img-overlay .card-title {
+        font-size: 15px;
+    }
+    .container-categories-center-info .card .card-img-overlay .card-title {
+        font-size: 15px !important;
+    }
+    .container-recomended-info-stars {        
+        width: 15px;
+        height: 15px;        
+        margin-top: 5px;
+    }
+
+    .container-categories-right img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ancho{
+        width: 18rem !important;
+    }
+}
+
+@media only screen and (max-width:375px){ 
+    .container-home-form{
+        left: 11%;
+    }
+    .container-reviews-title{
+        font-size: 30px;
+    }
+    
+    .container-reviews-info-center-right-stars img{
+        width: 20px;
+    }
+    .container-categories-title{
+        font-size: 19px !important;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .container-home-title{
+        font-size: 34px;
+        top: 14%;
+    }
+    .container-home-subtitle{
+        font-size: 14px;
+        top: 16%;    
+    }
+    .form-inline{
+        flex-flow: column;
+    }
+    .form-inline .form-control{
+        width: 300px;
+        font-size: 15px;
+    }
+    .container-home-button{
+        font-size: 18px;
+    }
+    .container-home-steps{
+        padding: 0 1rem;
+    }
+    .container-home-steps-text{
+        font-size: 10px;
+    }
+    .container-home-steps-info img{
+        width: 40px;
+        height: 40px;
+    }
+    /*********************/
+    .container-featured-title{
+        font-size: 26px;
+    }
+    .container-featured-dishes{
+        display: flex;
+        flex-flow: column;    
+        margin-top: 20px;
+        text-align: -webkit-center;
+    }
+    .container-featured-dishe{
+        margin-bottom: 2rem;
+    }
+
+    /************************/
+    .container-step-title{
+        font-size: 38px;
+    }
+    .container-step-flex{
+        display: inline-block;
+    }
+    .container-step-image{
+        display: none;
+    }
+    /**************************/
+    .container-register-here-text{
+        font-size: 10px;
+    }
+    .container-register-here-link{
+        font-size: 10px;
+    }
+    /**************************/
+    .container-reviews-title{
+        font-size: 32px;
+    }
+    .container-reviews-info-right img{
+        width: 35px;
+        height: 35px;
+    }
+    .container-reviews-info-left img{
+        width: 35px;
+        height: 35px;
+    }
+    .container-reviews-info-center{        
+        width: 90%;        
+    }
+    .container-reviews-info-center-right-quote-text{
+        font-size: 16px;
+    }
+    .container-reviews-info-center-right-stars{
+        justify-content: space-around;
+        margin-left: 10px;
+    }
+    .container-reviews-info-center-right-stars img{
+        width: 25px;
+        height: 25px;
+    }
+    .container-reviews-info-center-right-people-text{
+        font-size: 16px;
+    }
+    .container-reviews-info-center-left .card 
+    .card-body .card-title{        
+        font-size: 10px;
+    }
+    .container-reviews-info-center-left .card 
+    .card-body .card-text {        
+        font-size: 10px;
+        margin: 0;
+    }
+    .container-reviews-info-center-left .card 
+    .card-body .container-featured-price{
+        font-size: 10px;
+    }
+    .container-reviews-info-center-left .card 
+    .card-body .container-featured-price .btn{
+        padding: 0.075rem 0.35rem;    
+    }    
+    .container-featured-button{
+        font-size: 10px;
+    }
+    .container-featured-restaurant-title{
+        font-size: 8px;
+    }
+    .container-featured-direction-title{
+        font-size: 8px;
+    }
+    .container-reviews-info-center-right{
+        width: 40%;
+    }
+    .container-reviews-info-center-left{
+        width: 80%;
+    }
+    /*****************************/
+    .container-categories-title{
+        font-size: 26px;
+    }
+    .container-categories-left img{
+        width: 24px;
+        height: 24px;
+    }
+    .container-categories-right img{
+        width: 24px;
+        height: 24px;
+    }
+    .container-categories-center-info
+     .card .card-img{
+        width: 100px ;
+        height: 130px ;
+    }
+    .v{
+        display: none;
+    }
+    .container-categories-center-info .card .card-img-overlay 
+    .card-title {        
+        font-size: 20px;
+    }
+
+    /*****************************/
+    .container-recommended-nav-title{
+        font-size: 28px;
+    }
+    /*****************************/
+    .ancho{
+        width: 23rem;
+    }
+}
+
+.h3-title-arvo-bold-26{
+    font-family: "Arvo-Bold";
+    font-weight: 900; 
+    font-size: 26px;    
+}
+.p-subtitle-arvo-italic-12{
+    font-family: "Arvo-BoldItalic";
+    font-size: 12px;    
+}
+
+.container-home-button{
+    margin-top: 2rem;
+    color: $blanco;
+    background-color: $rojo;
+    border-color: $rojo;
+    font-size: 15px;
+    font-family: "Arvo-Bold";
+    padding: 3px 30px;
+}
+
+.container-featured-dishes{
+    width: 1000px;
+    background-color: $gris;
+}
+
+.container-featured-dishe{
+    margin: 10px 10px;
+}
+
+.container-all-header{
+    margin-bottom: 300px;
+}
+
+.frame-main{
+    height: 1595px;
+}
+
+.card{
+    width: 400px;
+}
+
+/*MEDIAQUERIES*/
+
+@media only screen and (min-width: 320px) and (max-width: 785px){
+
+    .card{
+        width: 200px;
+    }
+
+    .container-featured-dishes{
+        margin-top: 0px;
+        width: 260px;
+    }
+
+    .frame-main{
+        height: 3205px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 785px){
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 785px){
+
+}
+
+@media only screen and (min-width: 786px){
+
+} 
+.container-restaurant{
+
+
+    position: absolute;
+    width: 869px;
+    height: 1860px;
+    left: 570px;
+    top: 794px;
 
 }
