@@ -1,6 +1,8 @@
 @import "../../../../styles.scss";
 
 .container-main{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 315px;    
     padding: 26px;
@@ -34,76 +36,94 @@
 
 /*MEDIAQUERIES*/
 
-@media only screen and (min-width: 320px) and (max-width: 768px){
+@media only screen and (min-width: 320px) and (max-width: 785px){
     .container-main{
-        width: 260px;
-        height: 380px;
-        top: 55%;
+        margin: 0 auto;
+        width: 90%;
     }
     .h3-title-arvo-bold-26{
-        font-size: 1em;    
+        font-size: 1.2em;    
     }
     .p-subtitle-arvo-italic-12{
-        font-size: 1em;  
+        font-size: 0.7em;  
     }
     .container-home-button{
         margin-top: 1rem;
         font-size: 11px;
         padding: 5px 2rem;
     }
-    .form-control{
-        font-size: 0.7rem;
+    .table-dishe{
+        margin-left: 0px;
     }
-    .container-home-sign-zone-check{
-        margin-top: 1rem;
+    .table-dishe img{
+       width: 280px;
+       height: 210px;
     }
-
-    .fuente{
-        font-size: 0.6rem;
+    .table-description-dishe{
+        background: rgba(255, 255, 255, 0.6);
+        z-index: 100;
     }
-    
-}
-
-@media only screen and (min-width: 375px) and (max-width: 768px){
-    .container-main{
-        width: 300px;
+    .container-dishe{
+        margin-top: -30px;
+        height: 550px;
     }
-    .h3-title-arvo-bold-26{
-        font-family: "Arvo-Bold";
-        font-weight: 900; 
-        font-size: 26px;    
+    .table-description-dishe{
+        margin-right: 0px;
+        /* border: 1px solid black; */
     }
-    .p-subtitle-arvo-italic-12{
-        font-family: "Arvo-BoldItalic";
-        font-size: 12px;    
+    .container-comment-dishe{
+        height: 250px;
+        margin-top: -70px;
     }
-    .container-home-button{
-        margin-top: 0.5rem;
-        font-size: 12px;
-    }
-    .fuente{
-        font-size: 0.7rem;
+    section.frame-main, .container-home{
+        height: 900px;
     }
     
 }
 
-@media only screen and (min-width: 425px) and (max-width: 768px){
+@media only screen and (min-width: 375px) and (max-width: 785px){
     .container-main{
-        width: 400px;
-        height: 400px;
-        top: 55%;
+
     }
     .h3-title-arvo-bold-26{
-        font-family: "Arvo-Bold";
-        font-weight: 900; 
-        font-size: 26px;    
+   
     }
     .p-subtitle-arvo-italic-12{
-        font-family: "Arvo-BoldItalic";
-        font-size: 12px;    
+
     }
     .container-home-button{
         margin-top: 0.5rem;
         font-size: 12px;
     }
 }
+
+@media only screen and (min-width: 425px) and (max-width: 785px){
+    .container-main{
+
+    }
+    .h3-title-arvo-bold-26{
+
+    }
+    .p-subtitle-arvo-italic-12{
+  
+    }
+    .container-home-button{
+        margin-top: 0.5rem;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 786px){
+    .table-dishe{
+        margin-right: 120px;
+    }
+    
+    .table-description-dishe{
+        width: 300px; 
+        margin-left: 120px;
+    }
+
+    .table-comment-dished{
+        width: 70%;
+    }
+} 
