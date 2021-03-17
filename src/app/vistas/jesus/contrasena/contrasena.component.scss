@@ -1,0 +1,47 @@
+@import "../../../../styles.scss";
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo-Bold';
+    box-sizing: border-box;
+}
+.container
+{
+    background: $blanco;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+
+}
+.container-password
+{   background: $gris;
+    margin: 100px 150px;
+    padding: 50px 150px 50px 150px;
+    text-align: center;   
+}
+.container-title
+{
+    padding: 20px 0px;
+}
+.container-password .container-title h2
+{
+    text-align: center;   
+
+}
+.container-content a
+{
+    color: black;
+    font-weight: 400;
+}
+
+
+.container-home-button{
+    margin-top: 2rem;
+    color: $blanco;
+    background-color: $rojo;
+    border-color: $rojo;
+    font-size: 20px;
+    font-family: "Arvo-Bold";
+    padding: 5px 4.8rem;
+}
